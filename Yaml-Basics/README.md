@@ -3,10 +3,10 @@
 ## Step-01: Comments & Key Value Pairs
  - Space after colon is mandatory to differentiate key and value
   
-      # Defining simple key value pairs
-      name: kalyan
-      age: 23
-      city: Hyderabad
+          # Defining simple key value pairs
+          name: kalyan
+          age: 23
+          city: Hyderabad
 ## Step-02: Dictionary / Map
  - Set of properties grouped together after an item
  - Equal amount of blank space required for all the items under a dictionary
