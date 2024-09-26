@@ -1,7 +1,7 @@
 # ReplicaSets with YAML
 ## Step-01: Create ReplicaSet Definition
 
-      - replicaset-definition.yml
+ - replicaset-definition.yml
 
        apiVersion: apps/v1
        kind: ReplicaSet
@@ -30,8 +30,8 @@
       # List Replicasets
       kubectl get rs
 
-      - Delete a pod
-      - ReplicaSet immediately creates the pod.
+ - Delete a pod
+ - ReplicaSet immediately creates the pod.
       # List Pods
       kubectl get pods
 
@@ -53,7 +53,7 @@
             targetPort: 80
             nodePort: 31232  
       
-      - Create NodePort Service for ReplicaSet & Test
+ - Create NodePort Service for ReplicaSet & Test
   
             # Create NodePort Service
             kubectl apply -f 03-replicaset-nodeport-servie.yml
