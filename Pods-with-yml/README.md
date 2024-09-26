@@ -6,6 +6,7 @@
       spec:
 # Step-02: Create Simple Pod Definition using YAML
  - pod-definition.yml
+  
       apiVersion: v1 # String
       kind: Pod  # String
       metadata: # Dictionary
@@ -30,6 +31,7 @@
 
 # Step-03: Create a NodePort Service
  - nodeport-service.yml
+
             apiVersion: v1
             kind: Service
             metadata:
