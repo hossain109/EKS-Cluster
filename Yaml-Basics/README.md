@@ -11,25 +11,25 @@
  - Set of properties grouped together after an item
  - Equal amount of blank space required for all the items under a dictionary
 
-      person:
-         name: kalyan
-         age: 23
-         city: Hyderabad
+          person:
+            name: kalyan
+            age: 23
+            city: Hyderabad
 ## Step-03: Array / Lists
  - Dash indicates an element of an array
   
-      person: # Dictionary
-      name: kalyan
-      age: 23
-      city: Hyderabad
-      hobbies: # List  
-      - cycling
-      - cookines
-      hobbies: [cycling, cooking]   # List with a differnt notation 
+          person: # Dictionary
+            name: kalyan
+            age: 23
+            city: Hyderabad
+            hobbies: # List  
+            - cycling
+            - cookines
+            hobbies: [cycling, cooking]   # List with a differnt notation 
 ## Step-04: Multiple Lists
  - Dash indicates an element of an array
   
-      person: # Dictionary
+          person: # Dictionary
             name: kalyan
             age: 23
             city: Hyderabad
