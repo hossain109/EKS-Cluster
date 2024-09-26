@@ -5,7 +5,7 @@
       
       spec:
 # Step-02: Create Simple Pod Definition using YAML
-      - pod-definition.yml
+- pod-definition.yml
             apiVersion: v1 # String
             kind: Pod  # String
             metadata: # Dictionary
@@ -18,7 +18,7 @@
                   image: stacksimplify/kubenginx:1.0.0
                   ports:
                   - containerPort: 80
-      - Create Pod
+- Create Pod
             # Create Pod
             kubectl create -f pod-definition.yml
             [or]
@@ -27,7 +27,7 @@
             # List Pods
             kubectl get pods
 # Step-03: Create a NodePort Service
-      - nodeport-service.yml
+- nodeport-service.yml
             apiVersion: v1
             kind: Service
             metadata:
@@ -43,7 +43,7 @@
                   port: 80    # Service Port
                   targetPort: 80 # Container Port
                   nodePort: 31231 # NodePort
-      - Create NodePort Service for Pod
+- Create NodePort Service for Pod
             # Create Service
             kubectl apply -f 03-pod-nodeport-service.yml
 
