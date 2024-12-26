@@ -31,3 +31,6 @@
       $ kubectl get svc
       $ kubectl get pods -o wide
 ### Try to access from browser by loadbalancer DNS
+
+
+https://www.youtube.com/watch?v=X8b0BAFKayo
